@@ -1,7 +1,7 @@
 import React, { useState, useContext } from "react";
 import { Link, useParams } from "react-router-dom";
 import { Context } from "../store/appContext";
-import { Navbar } from "../component/navbar";
+import { Navbar } from "../component/navbar.jsx";
 
 const editedContact = {
     name: "",
